@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mvcforumcore.web:
+    image: mvcforumcore.web
+    build:
+      context: .
+      dockerfile: MvcForumCore.Web/Dockerfile

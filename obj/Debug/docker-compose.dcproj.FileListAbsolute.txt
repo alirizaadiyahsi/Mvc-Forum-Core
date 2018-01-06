@@ -1,0 +1,2 @@
+c:\users\aliriza\documents\visual studio 2017\Projects\MvcForumCore\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\GitHub\MvcForumCore\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

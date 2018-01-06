@@ -1,0 +1,22 @@
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.deps.json
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.Core.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.Core.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.csprojResolveAssemblyReference.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.AssemblyInfo.cs
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.pdb
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.deps.json
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.pdb
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.Core.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\bin\Debug\netcoreapp2.0\MvcForumCore.Core.pdb
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.csprojResolveAssemblyReference.cache
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.AssemblyInfoInputs.cache
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.AssemblyInfo.cs
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.pdb

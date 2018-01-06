@@ -1,0 +1,11 @@
+services:
+  mvcforumcore.web:
+    build:
+      context: D:\GitHub\MvcForumCore
+      dockerfile: MvcForumCore.Web/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: mvcforumcore.web
+    ports:
+    - 80/tcp
+version: '3.0'

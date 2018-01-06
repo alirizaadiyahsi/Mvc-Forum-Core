@@ -1,0 +1,18 @@
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.Core\bin\Debug\netcoreapp2.0\MvcForumCore.Core.deps.json
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.Core\bin\Debug\netcoreapp2.0\MvcForumCore.Core.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.Core\bin\Debug\netcoreapp2.0\MvcForumCore.Core.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.csprojResolveAssemblyReference.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.csproj.CoreCompileInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.AssemblyInfoInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.AssemblyInfo.cs
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.pdb
+D:\GitHub\MvcForumCore\MvcForumCore.Core\bin\Debug\netcoreapp2.0\MvcForumCore.Core.deps.json
+D:\GitHub\MvcForumCore\MvcForumCore.Core\bin\Debug\netcoreapp2.0\MvcForumCore.Core.dll
+D:\GitHub\MvcForumCore\MvcForumCore.Core\bin\Debug\netcoreapp2.0\MvcForumCore.Core.pdb
+D:\GitHub\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.csprojResolveAssemblyReference.cache
+D:\GitHub\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.csproj.CoreCompileInputs.cache
+D:\GitHub\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.AssemblyInfoInputs.cache
+D:\GitHub\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.AssemblyInfo.cs
+D:\GitHub\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.dll
+D:\GitHub\MvcForumCore\MvcForumCore.Core\obj\Debug\netcoreapp2.0\MvcForumCore.Core.pdb

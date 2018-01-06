@@ -1,0 +1,36 @@
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.deps.json
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.runtimeconfig.json
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.runtimeconfig.dev.json
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.Core.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.Core.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.pdb
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.csprojResolveAssemblyReference.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.csproj.CoreCompileInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.AssemblyInfoInputs.cache
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.AssemblyInfo.cs
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.dll
+C:\Users\aliriza\Documents\Visual Studio 2017\Projects\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.pdb
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.deps.json
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.runtimeconfig.json
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.runtimeconfig.dev.json
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.pdb
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.Core.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.Core.pdb
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\bin\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.pdb
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.csprojResolveAssemblyReference.cache
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.csproj.CoreCompileInputs.cache
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.AssemblyInfoInputs.cache
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.AssemblyInfo.cs
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.dll
+D:\GitHub\MvcForumCore\MvcForumCore.EntityFrameworkCore.Tests\obj\Debug\netcoreapp2.0\MvcForumCore.EntityFrameworkCore.Tests.pdb
