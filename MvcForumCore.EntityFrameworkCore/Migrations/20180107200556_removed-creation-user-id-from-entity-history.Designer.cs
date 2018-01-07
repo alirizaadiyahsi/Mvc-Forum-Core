@@ -11,9 +11,10 @@ using System;
 namespace MvcForumCore.Migrations
 {
     [DbContext(typeof(MvcForumCoreContext))]
-    partial class MvcForumCoreContextModelSnapshot : ModelSnapshot
+    [Migration("20180107200556_removed-creation-user-id-from-entity-history")]
+    partial class removedcreationuseridfromentityhistory
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

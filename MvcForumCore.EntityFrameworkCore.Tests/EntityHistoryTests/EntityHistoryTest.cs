@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using MvcForumCore.Authorization;
 using MvcForumCore.Extensions;
+using MvcForumCore.Logs;
 using MvcForumCore.Uow;
 using Xunit;
 
@@ -32,7 +33,9 @@ namespace MvcForumCore.EntityFrameworkCore.Tests.EntityHistoryTests
             });
 
             _inMemoryContext.EnsureEntityHistory();
-            var count = _inMemoryContext.ChangeTracker.Entries().Count(e => e.State == EntityState.Added);
+
+            var count = _inMemoryContext.ChangeTracker.Entries()
+                .Count(e => e.State == EntityState.Added && !e.Metadata.Name.Contains(typeof(EntityHistory).Name));
 
             Assert.Equal(2, count);
         }
@@ -47,12 +50,13 @@ namespace MvcForumCore.EntityFrameworkCore.Tests.EntityHistoryTests
 
             _inMemoryContext.Add(testUser);
             _inMemoryContext.SaveChanges();
+
             testUser.UserName = "UpdateTestUser";
             _inMemoryContext.EnsureEntityHistory();
+
             var count = _inMemoryContext.ChangeTracker.Entries().Count(e => e.State == EntityState.Modified);
 
             Assert.Equal(1, count);
-
         }
     }
 }

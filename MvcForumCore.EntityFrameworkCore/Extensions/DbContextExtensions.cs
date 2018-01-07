@@ -5,42 +5,33 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 using MvcForumCore.Logs;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Serialization;
 
 namespace MvcForumCore.Extensions
 {
-    /// <summary>
-    /// Represents a plugin for Microsoft.EntityFrameworkCore to support automatically recording data changes history.
-    /// </summary>
     public static class DbContextExtensions
     {
-        private static readonly JsonSerializer Jsonerializer = JsonSerializer.Create(new JsonSerializerSettings
-        {
-            ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
-            ContractResolver = new CamelCasePropertyNamesContractResolver(),
-            Formatting = Formatting.Indented,
-            NullValueHandling = NullValueHandling.Ignore
-        });
-
-        /// <summary>
-        /// Ensures the automatic history.
-        /// </summary>
-        /// <param name="context">The context.</param>
         public static void EnsureEntityHistory(this DbContext context)
         {
-            // Must ToArray() here for excluding the AutoHistory model.
-            // Currently, only support Modified and Deleted entity.
-            var entries = context.ChangeTracker.Entries().Where(e => e.State == EntityState.Modified || e.State == EntityState.Deleted).ToArray();
+            var jsonSerializer = JsonSerializer.Create(new JsonSerializerSettings
+            {
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+                ContractResolver = new EntityContractResolver(context),
+                Formatting = Formatting.Indented,
+                NullValueHandling = NullValueHandling.Ignore
+            });
+
+            var entries = context.ChangeTracker.Entries()
+                .Where(e => e.State == EntityState.Added || e.State == EntityState.Modified || e.State == EntityState.Deleted)
+                .ToArray();
+
             foreach (var entry in entries)
             {
-                context.Add(entry.EntityHistory());
+                context.Add(entry.EntityHistory(jsonSerializer));
             }
         }
 
-        internal static EntityHistory EntityHistory(this EntityEntry entry)
+        internal static EntityHistory EntityHistory(this EntityEntry entry, JsonSerializer jsonSerializer)
         {
-            //TODO: add user id to entity history
-
             var entityHistory = new EntityHistory
             {
                 EntityName = entry.Metadata.Relational().TableName
@@ -61,7 +52,7 @@ namespace MvcForumCore.Extensions
                             continue;
                         }
                         json[prop.Metadata.Name] = prop.CurrentValue != null
-                            ? JToken.FromObject(prop.CurrentValue, Jsonerializer)
+                            ? JToken.FromObject(prop.CurrentValue, jsonSerializer)
                             : JValue.CreateNull();
                     }
 
@@ -78,11 +69,11 @@ namespace MvcForumCore.Extensions
                         if (prop.IsModified)
                         {
                             before[prop.Metadata.Name] = prop.OriginalValue != null
-                            ? JToken.FromObject(prop.OriginalValue, Jsonerializer)
+                            ? JToken.FromObject(prop.OriginalValue, jsonSerializer)
                             : JValue.CreateNull();
 
                             after[prop.Metadata.Name] = prop.CurrentValue != null
-                            ? JToken.FromObject(prop.CurrentValue, Jsonerializer)
+                            ? JToken.FromObject(prop.CurrentValue, jsonSerializer)
                             : JValue.CreateNull();
                         }
                     }
@@ -98,10 +89,10 @@ namespace MvcForumCore.Extensions
                     foreach (var prop in properties)
                     {
                         json[prop.Metadata.Name] = prop.OriginalValue != null
-                            ? JToken.FromObject(prop.OriginalValue, Jsonerializer)
+                            ? JToken.FromObject(prop.OriginalValue, jsonSerializer)
                             : JValue.CreateNull();
                     }
-                    entityHistory.EntityId= entry.PrimaryKey();
+                    entityHistory.EntityId = entry.PrimaryKey();
                     entityHistory.EntityState = EntityState.Deleted;
                     entityHistory.ChangeHistory = json.ToString();
                     break;

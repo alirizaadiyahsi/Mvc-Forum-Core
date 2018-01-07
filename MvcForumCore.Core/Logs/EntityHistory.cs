@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MvcForumCore.Logs
 {
-    public class EntityHistory : AuditedEntityCreation
+    public class EntityHistory : BaseEntity
     {
         /// <summary>
         /// Gets or sets the source entity id
@@ -24,5 +24,10 @@ namespace MvcForumCore.Logs
         /// Gets or sets the entity change state
         /// </summary>
         public EntityState EntityState { get; set; }
+
+        /// <summary>
+        /// Gets or sets entity change creation datetime
+        /// </summary>
+        public DateTime CreationDateTime { get; set; }
     }
 }
