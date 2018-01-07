@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using MvcForumCore.Authorization;
 using MvcForumCore.Extensions;
 using MvcForumCore.Logs;
-using MvcForumCore.Uow;
 using Xunit;
 
 namespace MvcForumCore.EntityFrameworkCore.Tests.EntityHistoryTests
